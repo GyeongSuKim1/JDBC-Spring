@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbbfdf7f-4850-40e3-8133-f359868a61f1" name="Changes" comment="" />
+    <list default="true" id="dbbfdf7f-4850-40e3-8133-f359868a61f1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/db/jdbcspring/ConnectionConst/ConnectionConst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/db/jdbcspring/ConnectionConst/DBConnectionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/db/jdbcspring/domain/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/db/jdbcspring/repository/MemberRepositoryV0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/db/jdbcspring/connection/DBConnectionUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/db/jdbcspring/repository/MemberRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,10 +24,26 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mysql/mysql-connector-j/8.0.31/a74c6c6e482f358a8a70ad41ba88d583b11394a1/mysql-connector-j-8.0.31-sources.jar!/com/mysql/cj/jdbc/ConnectionImpl.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2J9sHMjbwwYhhs6EmzcMSQeKf6A" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
@@ -31,6 +56,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -42,7 +68,54 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MemberRepositoryTest.crud">
+    <configuration name="DBConnectionUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBC-Spring.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="db.jdbcspring.connection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="db.jdbcspring.connection" />
+      <option name="MAIN_CLASS_NAME" value="db.jdbcspring.connection.DBConnectionUtilTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DBConnectionUtilTest.connection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBC-Spring.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="db.jdbcspring.connection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="db.jdbcspring.connection" />
+      <option name="MAIN_CLASS_NAME" value="db.jdbcspring.connection.DBConnectionUtilTest" />
+      <option name="METHOD_NAME" value="connection" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberRepositoryTest.crud" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBC-Spring.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="db.jdbcspring.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="db.jdbcspring.repository" />
+      <option name="MAIN_CLASS_NAME" value="db.jdbcspring.repository.MemberRepositoryTest" />
+      <option name="METHOD_NAME" value="crud" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JdbcSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="JDBC-Spring.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="db.jdbcspring.JdbcSpringApplication" />
@@ -50,6 +123,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MemberRepositoryTest.crud" />
+        <item itemvalue="JUnit.DBConnectionUtilTest.connection" />
+        <item itemvalue="JUnit.DBConnectionUtilTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -59,11 +139,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671501544430</updated>
-      <workItem from="1671501546100" duration="1822000" />
+      <workItem from="1671501546100" duration="17129000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
