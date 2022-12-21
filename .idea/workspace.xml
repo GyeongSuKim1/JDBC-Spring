@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbbfdf7f-4850-40e3-8133-f359868a61f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/db/jdbcspring/ConnectionConst/ConnectionConst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/db/jdbcspring/ConnectionConst/DBConnectionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/db/jdbcspring/domain/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/db/jdbcspring/repository/MemberRepositoryV0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/db/jdbcspring/connection/DBConnectionUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/db/jdbcspring/repository/MemberRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/db/jdbcspring/repository/MemberRepositoryV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/db/jdbcspring/connection/ConnectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/db/jdbcspring/repository/MemberRepositoryV1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/jdbcspring/repository/MemberRepositoryV0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/jdbcspring/repository/MemberRepositoryV0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/db/jdbcspring/repository/MemberRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/db/jdbcspring/repository/MemberRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +45,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -65,11 +66,17 @@
     "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "spring.configuration.checksum": "39e9d821f7e509de2b59c1e32b430568"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.MemberRepositoryTest.crud">
-    <configuration name="DBConnectionUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="db.jdbcspring.repository" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ConnectionTest.dataSourceConnectionPool">
+    <configuration name="ConnectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JDBC-Spring.test" />
       <extension name="coverage">
         <pattern>
@@ -78,13 +85,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="db.jdbcspring.connection" />
-      <option name="MAIN_CLASS_NAME" value="db.jdbcspring.connection.DBConnectionUtilTest" />
+      <option name="MAIN_CLASS_NAME" value="db.jdbcspring.connection.ConnectionTest" />
+      <option name="METHOD_NAME" value="dataSourceConnectionPool" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DBConnectionUtilTest.connection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConnectionTest.dataSourceConnectionPool" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JDBC-Spring.test" />
       <extension name="coverage">
         <pattern>
@@ -93,8 +101,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="db.jdbcspring.connection" />
-      <option name="MAIN_CLASS_NAME" value="db.jdbcspring.connection.DBConnectionUtilTest" />
-      <option name="METHOD_NAME" value="connection" />
+      <option name="MAIN_CLASS_NAME" value="db.jdbcspring.connection.ConnectionTest" />
+      <option name="METHOD_NAME" value="dataSourceConnectionPool" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConnectionTest.dataSourceDriverManger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBC-Spring.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="db.jdbcspring.connection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="db.jdbcspring.connection" />
+      <option name="MAIN_CLASS_NAME" value="db.jdbcspring.connection.ConnectionTest" />
+      <option name="METHOD_NAME" value="dataSourceDriverManger" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,6 +140,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MemberRepositoryV1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBC-Spring.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="db.jdbcspring.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="db.jdbcspring.repository" />
+      <option name="MAIN_CLASS_NAME" value="db.jdbcspring.repository.MemberRepositoryV1Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JdbcSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="JDBC-Spring.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="db.jdbcspring.JdbcSpringApplication" />
@@ -125,9 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConnectionTest.dataSourceConnectionPool" />
+        <item itemvalue="JUnit.MemberRepositoryV1Test" />
         <item itemvalue="JUnit.MemberRepositoryTest.crud" />
-        <item itemvalue="JUnit.DBConnectionUtilTest.connection" />
-        <item itemvalue="JUnit.DBConnectionUtilTest" />
+        <item itemvalue="JUnit.ConnectionTest" />
+        <item itemvalue="JUnit.ConnectionTest.dataSourceDriverManger" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +180,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671501544430</updated>
-      <workItem from="1671501546100" duration="17129000" />
+      <workItem from="1671501546100" duration="19444000" />
+      <workItem from="1671542758632" duration="12704000" />
     </task>
     <servers />
   </component>

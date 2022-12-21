@@ -29,6 +29,8 @@ public class MemberRepositoryTest {
 
         // update : money: 1500 -> 2500
         repository.update(member.getMemberId(), 2500);
+        Member updateMember = repository.findById(member.getMemberId());
+        Assertions.assertThat(updateMember.getMoney()).isEqualTo(2500);
 
         // delete
         repository.delete(member.getMemberId());
