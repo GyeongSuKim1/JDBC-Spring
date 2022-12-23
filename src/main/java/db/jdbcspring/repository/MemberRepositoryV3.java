@@ -2,17 +2,26 @@ package db.jdbcspring.repository;
 
 import db.jdbcspring.domain.Member;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.jdbc.datasource.DataSourceUtils;
+import org.springframework.jdbc.support.JdbcUtils;
 
+import javax.sql.DataSource;
 import java.sql.*;
 import java.util.NoSuchElementException;
 
-import static db.jdbcspring.ConnectionConst.DBConnectionUtil.getConnection;
-
 /**
- * JDBC - DriverManager 사용
+ * 트랜잭션 - 트랜잭션 매니저
+ * DataSourceUtils.getConnection()
+ * DataSourceUtils.releaseConnection()
  */
 @Slf4j
-public class MemberRepositoryV0 {
+public class MemberRepositoryV3 {
+
+    private final DataSource dataSource;
+
+    public MemberRepositoryV3(DataSource dataSource) {
+        this.dataSource = dataSource;
+    }
 
     public Member save(Member member) throws SQLException {
 
@@ -34,33 +43,6 @@ public class MemberRepositoryV0 {
             throw e;
         } finally {
             close(con, pstmt, null);
-        }
-    }
-
-    private void close(Connection con, Statement stmt, ResultSet rs) {
-
-        if (rs != null) {
-            try {
-                rs.close();
-            } catch (SQLException e) {
-                log.info("error", e);
-            }
-        }
-
-        if (stmt != null) {
-            try {
-                stmt.close();
-            } catch (SQLException e) {
-                log.info("error", e);
-            }
-        }
-
-        if (con != null) {
-            try {
-                con.close();
-            } catch (SQLException e) {
-                log.info("error", e);
-            }
         }
     }
 
@@ -98,10 +80,6 @@ public class MemberRepositoryV0 {
     public void update(String memberId, int money) throws SQLException {
 
         String sql = "update member set money=? where member_id=?";
-
-//        String sql = "update member " +
-//                "set money=:money " +
-//                "where member_id=:member_id";
 
         Connection con = null;
         PreparedStatement pstmt = null;
@@ -144,7 +122,19 @@ public class MemberRepositoryV0 {
         }
     }
 
-    private Connection connection() {
-        return getConnection();
+    private void close(Connection con, Statement stmt, ResultSet rs) {
+
+        JdbcUtils.closeResultSet(rs);
+        JdbcUtils.closeStatement(stmt);
+        // 주의! 트랜잭션 동기화를 사용하려면 DataSourceUtils 를 사용해야 한다.
+        DataSourceUtils.releaseConnection(con, dataSource);
+    }
+
+    private Connection getConnection() throws SQLException {
+
+        // 주의! 트랜잭션 동기화를 사용하려면 DataSourceUtils 를 사용해야 한다.
+        Connection con = DataSourceUtils.getConnection(dataSource);
+        log.info("get connection = {}, class = {}", con, con.getClass());
+        return con;
     }
 }
