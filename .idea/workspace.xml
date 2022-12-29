@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbbfdf7f-4850-40e3-8133-f359868a61f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/db/jdbcspring/repository/MemberRepositoryV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/db/jdbcspring/connection/ConnectionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/db/jdbcspring/repository/MemberRepositoryV1Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/db/jdbcspring/repository/MemberRepositoryV0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/jdbcspring/repository/MemberRepositoryV0.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/db/jdbcspring/repository/MemberRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/db/jdbcspring/repository/MemberRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +17,28 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="JDBC-Spring" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -45,112 +57,129 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="compactDirectories" value="true" />
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "spring.configuration.checksum": "39e9d821f7e509de2b59c1e32b430568"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenDatabaseViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/OneDrive - (주)로완/바탕 화면/새 폴더/_____Spring/JDBC-Spring/build.gradle&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;39e9d821f7e509de2b59c1e32b430568&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;oracle&quot;,
+      &quot;mysql&quot;,
+      &quot;mariadb&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="db.jdbcspring.service" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="db.jdbcspring.repository" />
+      <recent name="db.jdbcspring.service" />
+      <recent name="db.jdbcspring.exception.basic" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ConnectionTest.dataSourceConnectionPool">
-    <configuration name="ConnectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="MemberServiceV4Test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JDBC-Spring.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="db.jdbcspring.connection.*" />
+          <option name="PATTERN" value="db.jdbcspring.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="db.jdbcspring.connection" />
-      <option name="MAIN_CLASS_NAME" value="db.jdbcspring.connection.ConnectionTest" />
-      <option name="METHOD_NAME" value="dataSourceConnectionPool" />
+      <option name="PACKAGE_NAME" value="db.jdbcspring.service" />
+      <option name="MAIN_CLASS_NAME" value="db.jdbcspring.service.MemberServiceV4Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConnectionTest.dataSourceConnectionPool" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MemberServiceV4Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JDBC-Spring.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="db.jdbcspring.connection.*" />
+          <option name="PATTERN" value="db.jdbcspring.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="db.jdbcspring.connection" />
-      <option name="MAIN_CLASS_NAME" value="db.jdbcspring.connection.ConnectionTest" />
-      <option name="METHOD_NAME" value="dataSourceConnectionPool" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConnectionTest.dataSourceDriverManger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JDBC-Spring.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="db.jdbcspring.connection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="db.jdbcspring.connection" />
-      <option name="MAIN_CLASS_NAME" value="db.jdbcspring.connection.ConnectionTest" />
-      <option name="METHOD_NAME" value="dataSourceDriverManger" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MemberRepositoryTest.crud" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JDBC-Spring.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="db.jdbcspring.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="db.jdbcspring.repository" />
-      <option name="MAIN_CLASS_NAME" value="db.jdbcspring.repository.MemberRepositoryTest" />
-      <option name="METHOD_NAME" value="crud" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MemberRepositoryV1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JDBC-Spring.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="db.jdbcspring.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="db.jdbcspring.repository" />
-      <option name="MAIN_CLASS_NAME" value="db.jdbcspring.repository.MemberRepositoryV1Test" />
+      <option name="PACKAGE_NAME" value="db.jdbcspring.service" />
+      <option name="MAIN_CLASS_NAME" value="db.jdbcspring.service.MemberServiceV4Test" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringExceptionTranslatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBC-Spring.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="db.jdbcspring.exception.translator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="db.jdbcspring.exception.translator" />
+      <option name="MAIN_CLASS_NAME" value="db.jdbcspring.exception.translator.SpringExceptionTranslatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringExceptionTranslatorTest.exceptionTranslator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBC-Spring.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="db.jdbcspring.exception.translator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="db.jdbcspring.exception.translator" />
+      <option name="MAIN_CLASS_NAME" value="db.jdbcspring.exception.translator.SpringExceptionTranslatorTest" />
+      <option name="METHOD_NAME" value="exceptionTranslator" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringExceptionTranslatorTest.sqlExceptionErrorCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBC-Spring.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="db.jdbcspring.exception.translator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="db.jdbcspring.exception.translator" />
+      <option name="MAIN_CLASS_NAME" value="db.jdbcspring.exception.translator.SpringExceptionTranslatorTest" />
+      <option name="METHOD_NAME" value="sqlExceptionErrorCode" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -162,15 +191,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.ConnectionTest.dataSourceConnectionPool" />
-        <item itemvalue="JUnit.MemberRepositoryV1Test" />
-        <item itemvalue="JUnit.MemberRepositoryTest.crud" />
-        <item itemvalue="JUnit.ConnectionTest" />
-        <item itemvalue="JUnit.ConnectionTest.dataSourceDriverManger" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -181,7 +201,11 @@
       <option name="presentableId" value="Default" />
       <updated>1671501544430</updated>
       <workItem from="1671501546100" duration="19444000" />
-      <workItem from="1671542758632" duration="12704000" />
+      <workItem from="1671542758632" duration="19297000" />
+      <workItem from="1671666201278" duration="38897000" />
+      <workItem from="1671857060663" duration="9680000" />
+      <workItem from="1672022462566" duration="47332000" />
+      <workItem from="1672199299389" duration="9984000" />
     </task>
     <servers />
   </component>
@@ -198,5 +222,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="member" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
